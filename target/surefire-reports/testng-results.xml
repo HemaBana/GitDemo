@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21608" started-at="2019-02-28T14:25:57Z" finished-at="2019-02-28T14:26:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21608" started-at="2019-02-28T14:25:57Z" finished-at="2019-02-28T14:26:18Z">
+      <class name="TestScripts.Login">
+        <test-method status="PASS" signature="ValidLogin(java.lang.String, java.lang.String)[pri:0, instance:TestScripts.Login@4cb2c100]" name="ValidLogin" duration-ms="6430" started-at="2019-02-28T19:56:05Z" data-provider="getdata" finished-at="2019-02-28T19:56:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hema@nalashaa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NAL$1199]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method status="PASS" signature="ValidLogin(java.lang.String, java.lang.String)[pri:0, instance:TestScripts.Login@4cb2c100]" name="ValidLogin" duration-ms="6695" started-at="2019-02-28T19:56:11Z" data-provider="getdata" finished-at="2019-02-28T19:56:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[namitha@nalashaa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NAL$5143]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+      </class> <!-- TestScripts.Login -->
+      <class name="TestScripts.Dashboard">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:TestScripts.Dashboard@42d3bd8b]" name="invokeBrowser" is-config="true" duration-ms="6304" started-at="2019-02-28T19:55:57Z" finished-at="2019-02-28T19:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="validateTitle()[pri:0, instance:TestScripts.Dashboard@42d3bd8b]" name="validateTitle" duration-ms="1960" started-at="2019-02-28T19:56:03Z" finished-at="2019-02-28T19:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestScripts.Dashboard@42d3bd8b]" name="TearDown" is-config="true" duration-ms="71" started-at="2019-02-28T19:56:18Z" finished-at="2019-02-28T19:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestScripts.Login@4cb2c100]" name="teardown" is-config="true" duration-ms="135" started-at="2019-02-28T19:56:18Z" finished-at="2019-02-28T19:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestScripts.Dashboard -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
