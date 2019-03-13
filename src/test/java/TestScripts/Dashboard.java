@@ -32,6 +32,7 @@ public void validateTitle()
 	String aTitle = d.Title().getText();
 	Assert.assertEquals(aTitle, "DASHBOARD");
 	Assert.assertTrue(d.NavigationBar().isDisplayed());
+	System.out.println("Dashboard");
 }
 
 @AfterTest
